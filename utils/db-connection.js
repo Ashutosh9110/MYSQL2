@@ -69,7 +69,7 @@ connection.execute(createBookings, (err) => {
 
 
 
-const createPayments = `create table IF NOT EXISTS payment(
+const createPayments = `create table IF NOT EXISTS   payment(
   id INT AUTO_INCREMENT PRIMARY KEY,
   amountPaid INT,
   paymentStatus VARCHAR(255)
